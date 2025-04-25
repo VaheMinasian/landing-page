@@ -1,0 +1,176 @@
+/* styles.css */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+#header {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Awesome section */
+.awesome {
+    background-color: #1F2937;
+    padding: 100px 15%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.awesome-text {
+    flex: 1;
+}
+
+.awesome-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.awesome-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.awesome-text button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.awesome-image {
+    flex: 1;
+    background-color: #6d747d;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Info section */
+.info-section {
+    padding: 50px 15%;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /*flex-wrap: wrap;*/
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.card figcaption {
+    color: #6d747d;
+}
+
+/* Quote section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 15%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+blockquote footer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Footer CTA */
+footer {
+    padding: 100px 15%;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
